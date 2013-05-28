@@ -8,17 +8,17 @@
         <target device="android">false</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <sdk-version>3.0.2.GA</sdk-version>
-    <id>com.megamidia.RavistariaiOS</id>
+    <sdk-version>3.1.0.GA</sdk-version>
+    <id>com.danielvilha.RevistariaiOS</id>
     <name>Revistaria iOS</name>
     <version>1.0</version>
-    <publisher>MegaMidia Group</publisher>
-    <url>http://www.megamidia.com.br</url>
-    <description>not specified</description>
-    <copyright>2013 by MegaMidia Group</copyright>
+    <publisher>Daniel Vilha</publisher>
+    <url>http://www.facebook.com/daniel.vilha</url>
+    <description>Desenvolvimento da revistaria para plataforma iOS.</description>
+    <copyright>2013 by Daniel Vilha</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
-    <prerendered-icon>false</prerendered-icon>
+    <prerendered-icon>true</prerendered-icon>
     <statusbar-style>default</statusbar-style>
     <statusbar-hidden>false</statusbar-hidden>
     <fullscreen>false</fullscreen>
@@ -33,8 +33,6 @@
         <orientations device="ipad">
             <orientation>Ti.UI.PORTRAIT</orientation>
             <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
-            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
-            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
         </orientations>
     </iphone>
     <android xmlns:android="http://schemas.android.com/apk/res/android"/>

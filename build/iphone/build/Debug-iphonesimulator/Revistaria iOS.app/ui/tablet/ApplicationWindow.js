@@ -1,0 +1,1 @@
+/Users/danielvilha/Documents/Titanium_Studio_Workspace/Revistaria iOS/Resources/ui/tablet/ApplicationWindow.js

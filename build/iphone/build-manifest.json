@@ -1,0 +1,23 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "ipad",
+	"iosSdkPath": "/Users/danielvilha/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/iphone",
+	"appGuid": "0f481acd-196c-478c-8685-9b11a30fdc4a",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "cbb5169ab80ab275a7d8ac47d6da6849",
+	"nativeModulesHash": "9946a88273b42085102e2e32af84f02c",
+	"gitHash": "57634ef",
+	"name": "Revistaria iOS",
+	"id": "com.danielvilha.RevistariaiOS",
+	"analytics": true,
+	"publisher": "Daniel Vilha",
+	"url": "http://www.facebook.com/daniel.vilha",
+	"version": "1.0",
+	"description": "Desenvolvimento da revistaria para plataforma iOS.",
+	"copyright": "2013 by Daniel Vilha",
+	"guid": "0f481acd-196c-478c-8685-9b11a30fdc4a",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false
+}
