@@ -210,6 +210,8 @@ function ViewPage(data, rect, path) {
                 var newHeight = baseHeight / 2;
                 zoom = 1;
             }
+            
+            Ti.API.info('Doubletap newWidth: ' + newWidth + ' Doubletap newHeight: ' + newHeight);
 
             self.setSize(newWidth, newHeight);
         });

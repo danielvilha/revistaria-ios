@@ -20,6 +20,8 @@ Ti.App.pathUpdate = "http://10.0.1.135:83/media/revista/revista-megamidia/revist
 // Ti.App.source = '';
 Ti.App.source = 'http://10.0.1.135:83/media/';
 
+Ti.App.pathURL = "http://10.0.1.135:83/relatorios/";
+
 // This is a single context application with multiple windows in a stack
 (function() {
     //render appropriate components based on the platform and form factor

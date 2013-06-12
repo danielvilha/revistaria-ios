@@ -7,7 +7,8 @@ function Revista(_data) {
     //Create da Window self.
     var self = Ti.UI.createWindow({
         backgroundColor : '#000',
-        width : 'auto',
+        width : "auto",
+        height : "auto",
         fullscreen : true,
         navBarHidden : true
     });
@@ -153,7 +154,8 @@ function Revista(_data) {
         var scrollableView = Ti.UI.createScrollableView({
             width : "auto",
             height : "auto",
-            scrollingEnabled : true
+            scrollingEnabled : true,
+            disableBounce : true
         });
 
         scrollableView.views = pages;

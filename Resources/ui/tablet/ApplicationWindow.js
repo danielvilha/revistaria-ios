@@ -125,6 +125,7 @@ function ApplicationWindow() {
                 // function called when the response data is available
                 onload : function(e) {
                     revistaData = JSON.parse(this.responseText);
+                    Ti.App.revistaDataID = revistaData.id;
                     if (revistaData.edicoes.length > 0) {
                         for (nome in revistaData.edicoes) {
                             // if (revistaData.edicoes[nome].publicada == true) {
